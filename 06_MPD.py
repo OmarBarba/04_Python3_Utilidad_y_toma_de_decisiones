@@ -1,3 +1,8 @@
+#El Proceso de Decisión de Markov (MDP) es un marco formal para 
+#modelar problemas de decisión secuencial bajo incertidumbre. 
+#Aquí tienes un ejemplo simplificado de cómo aplicar MDP en un 
+#problema de búsqueda en un grafo:
+
 import numpy as np
 
 class MDP:

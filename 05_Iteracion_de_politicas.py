@@ -1,4 +1,16 @@
 
+#La iteración de políticas es otro enfoque para resolver problemas
+# de decisión en grafos. En lugar de iterar sobre los valores de
+#los estados como lo hacíamos en la iteración de valores, en la 
+#iteración de políticas, iteramos directamente sobre las políticas,
+# que son estrategias que determinan la acción a tomar en cada 
+#estado. El objetivo es encontrar una política óptima que maximice 
+#la recompensa esperada a lo largo del tiempo.
+
+#A continuación, te proporciono un ejemplo simplificado de cómo 
+#se podría aplicar la iteración de políticas en un problema de 
+#decisión en un grafo:
+
 class Graph:
     def __init__(self):
         self.nodes = set()
